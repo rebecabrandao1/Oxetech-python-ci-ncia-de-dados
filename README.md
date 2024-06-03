@@ -27,7 +27,7 @@ Este é um projeto simples de datalogger utilizando Arduino e Python para gravar
 | Sensor DHT11 | Arduino Uno |
 |--------------|-------------|
 | VCC          | 5V          |
-| DATA         | 7           |
+| DATA         | Pino do sinal|
 | GND          | GND         |
 
 ## Uso com Google Colab
