@@ -13,7 +13,7 @@ Este é um projeto simples de datalogger utilizando Arduino e Python para gravar
 
 ## Instalação
 
-1. Faça o upload do código `arduino_datalogger.ino` para o seu Arduino Uno.
+1. Faça o upload do código `dht11.ino` para o seu Arduino Uno.
 2. Conecte o sensor DHT11 ao Arduino conforme o esquema de conexão.
 
 ## Uso
