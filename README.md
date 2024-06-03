@@ -30,6 +30,21 @@ Este é um projeto simples de datalogger utilizando Arduino e Python para gravar
 | DATA         | 7           |
 | GND          | GND         |
 
+## Uso com Google Colab
+
+1. Faça upload do arquivo `datalogger.csv` gerado pelo Arduino para o Google Colab.
+2. Crie um novo notebook Python no Google Colab.
+3. Utilize o seguinte código para carregar e visualizar os dados do arquivo CSV:
+
+```python
+import pandas as pd
+
+# Carregar arquivo CSV
+df = pd.read_csv('caminho_para_o_arquivo_datalogger.csv')
+
+# Exibir as primeiras linhas do dataframe
+print(df.head())
+````
 ## Contribuição
 
 Contribuições são bem-vindas! Para maiores informações, por favor, abra uma issue para discutir o que você gostaria de mudar ou faça um clone do repositório.
