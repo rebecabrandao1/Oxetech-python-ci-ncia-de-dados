@@ -7,6 +7,9 @@ Este é um projeto simples de datalogger utilizando Arduino e Python para gravar
 - Arduino Uno
 - Sensor de Umidade e Temperatura DHT11
 - Computador com Python 3 e PySerial instalado
+- Para instalar a biblioteca do PySerial é só digitar no terminal: `pip install pyserial`
+- Para baixar a biblioteca do DHT11 acesse esse [link](https://github.com/dhrubasaha08/DHT11), baixe e em seguida clique em sketch > include libraries > add .ZIP library
+
 
 ## Instalação
 
